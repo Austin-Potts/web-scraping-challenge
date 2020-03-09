@@ -5,14 +5,14 @@ The purpose of this project is to gather data from several different websites in
 Getting Started
 --------------------------------------
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-Keep all of the files in their current locations, some pip install may be necessary.
+Keep all of the files in their current locations, some pip installs may be necessary to run all of the code, do not move the location of the geckdriver.exe.
 
 All Dependencies Used:
 -----------------------
-from bs4 import BeautifulSoup as bs (pip install beautifulsoup4)
-import requests
-from splinter import Browser (pip install splinter)
-import pandas as pd (pip install pandas)
-import time
-from flask import Flask, render_template, request (pip install -U Flask)
-from flask_pymongo import PyMongo (pip install pymongo)
+-from bs4 import BeautifulSoup as bs (pip install beautifulsoup4)
+-import requests
+-from splinter import Browser (pip install splinter)
+-import pandas as pd (pip install pandas)
+-import time
+-from flask import Flask, render_template, request (pip install -U Flask)
+-from flask_pymongo import PyMongo (pip install pymongo)
