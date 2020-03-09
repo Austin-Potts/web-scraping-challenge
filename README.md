@@ -9,10 +9,10 @@ Keep all of the files in their current locations, some pip installs may be neces
 
 All Dependencies Used:
 -----------------------
--from bs4 import BeautifulSoup as bs (pip install beautifulsoup4)
--import requests
--from splinter import Browser (pip install splinter)
--import pandas as pd (pip install pandas)
--import time
--from flask import Flask, render_template, request (pip install -U Flask)
--from flask_pymongo import PyMongo (pip install pymongo)
+-- from bs4 import BeautifulSoup as bs (pip install beautifulsoup4)
+-- import requests
+-- from splinter import Browser (pip install splinter)
+-- import pandas as pd (pip install pandas)
+-- import time
+-- from flask import Flask, render_template, request (pip install -U Flask)
+-- from flask_pymongo import PyMongo (pip install pymongo)
