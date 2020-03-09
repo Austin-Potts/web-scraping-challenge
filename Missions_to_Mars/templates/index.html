@@ -47,8 +47,10 @@
             <div class="col-md-12">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                    <h4><b>Mars Facts</b></h4>
-                    <p>{{mars_data.mars_facts | safe}}</p>
+                    <h4 ALIGN = "center"><b>Mars Facts</b></h4>
+                    <!--If a string that you marked safe is passed through other Python code that doesn’t understand that mark, it may get lost. 
+                      Be aware of when your data is marked safe and how it is processed before arriving at the template.-->
+                    <p>{{mars_data.mars_facts| safe}}</p>
                     </div>
                     </div>
                     </div>

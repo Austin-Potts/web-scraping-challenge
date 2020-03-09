@@ -106,7 +106,7 @@ def scrape():
     mars_facts.set_index('Description', inplace=True)
     
     #exporting table data to html for use in the flask app.
-    mars_facts = mars_facts.to_html(classes="table table-striped")
+    mars_facts = mars_facts.to_html(classes="table table-responsive")
 
     ###################################################################################################################################
     browser = Browser("firefox", executable_path = "/Users/Austin Potts/Downloads/geckodriver", headless=True)
